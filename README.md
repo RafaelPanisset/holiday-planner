@@ -14,8 +14,8 @@ This is an API allow users to perform CRUD operations (Create, Read, Update,Dele
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone git@github.com:RafaelPanisset/holiday-planner.git
+cd holiday-planner
 ```
 
 ### 2.  Set Up Environment Variables
