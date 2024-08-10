@@ -42,7 +42,7 @@ docker exec -it holiday-planner-app php artisan migrate
 ```
 
 ### 6. Passport Setup
-To set up the database, run the passport command:
+To set up the passport, run the passport command:
 ```bash
 docker exec -it holiday-planner-app php artisan passport:install
 ```
