@@ -57,9 +57,9 @@ docker exec -it holiday-planner-app php artisan test
 
 ### 8. Accessing Scribe Documentation
 
-If you are using Scribe for API documentation, you can access it via the following URL:
+If you are using Scribe for API documentation, you can access it via the following URL:  
 
 ```bash
-docker exec -it laravel-app php artisan test
+http://localhost:8005/docs
 ```
 
