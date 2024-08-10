@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is an API allow users to perform CRUD operations (Create, Read, Update,Delete) on holiday plans.
+This is an API that allow users to perform CRUD operations (Create, Read, Update,Delete) on holiday plans.
 
 ## Requirements
 
