@@ -29,7 +29,7 @@ composer install
 Create a .env file in the root of your project based on the provided .env.example. Update the environment variables as needed.
 
 ```bash
-docker-compose up --build
+docker-compose up -d
 ```
 
 ### 4. Access the Application
