@@ -8,6 +8,7 @@ This is an API allow users to perform CRUD operations (Create, Read, Update,Dele
 
 - Docker
 - Docker Compose
+- Composer
 
 ## Getting Started
 
@@ -18,7 +19,13 @@ git clone https://github.com/RafaelPanisset/holiday-planner.git
 cd holiday-planner
 ```
 
-### 2.  Set Up Environment Variables
+### 2. Install the PHP dependencies using Composer.
+
+```bash
+composer install
+```
+
+### 3.  Set Up Environment Variables
 Create a .env file in the root of your project based on the provided .env.example. Update the environment variables as needed.
 
 ```bash
@@ -48,12 +55,9 @@ To run the tests for the Laravel application, use the following command:
 docker exec -it holiday-planner-app php artisan test
 ```
 
-
 ### 8. Accessing Scribe Documentation
 
 If you are using Scribe for API documentation, you can access it via the following URL:
-
-
 
 ```bash
 docker exec -it laravel-app php artisan test
